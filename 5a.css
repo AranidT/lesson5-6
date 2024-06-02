@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    height: 100px;
+}
+
+.text1 {
+    border: 1px solid black;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    margin-right: 10px;
+}
+
+.text2 {
+    border: 1px solid black;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.text3 {
+    border: 1px solid black;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text4 {
+    border: 1px solid black;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}

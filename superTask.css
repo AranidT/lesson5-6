@@ -1,0 +1,130 @@
+.main-block{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.block1{
+    width: 300px;
+    height: 420px;
+    border: 1px solid thistle;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.block2{
+    width: 300px;
+    height: 420px;
+    border: 1px solid thistle;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.image1{
+    width: 320px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.price{
+    display: flex;
+    margin-top: 200px;
+}
+
+.price-text{
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.price-credit{
+   background-color: yellow; 
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.description-name{
+    margin-bottom: 5px;
+    color:deepskyblue;
+}
+
+.number{
+    display: flex;
+}
+
+.remark{
+    height: 60px;
+}
+
+.remark_3{
+    /* border: 1px solid salmon; */
+    display: flex;
+}
+
+.remark-1{
+    color: #fff;
+    height: 50%;
+    padding: 5px;
+    background-color: lawngreen;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.remark-2{
+    color: #fff;
+    height: 50%;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.name{
+    margin-bottom: 10px;
+}
+
+.image-eye{
+    width: 17px;
+    height: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.publication{
+    color: grey;
+}
+
+.icon{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+
+.icon-1{
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.icon-2{
+    width: 15px;
+    height: 15px;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 5px;
+}

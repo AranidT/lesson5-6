@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.box1 {
+    /* display: flex;
+    justify-content: space-between; */
+    border: 1px solid black;
+    /* width: 100px; */
+    flex: 1;
+    /* order: 2; */
+    display: flex;
+    justify-content: end;
+}
+
+.box2 {
+    border: 1px solid black;
+    /* width: 100px; */
+    flex: 1;
+    /* order: 1; */
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box3{
+    border: 1px solid black;
+    /* width: 100px; */
+    flex: 1;
+    /* order: 3; */
+    display: flex;
+    justify-content: center;
+}
+
+.box4{
+    border: 1px solid black;
+    flex-grow: 1;
+}

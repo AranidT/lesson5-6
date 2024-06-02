@@ -1,0 +1,42 @@
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+.box1{
+    background-color: orangered;
+    width: 50px;
+    height: 50px;
+    flex: 1;
+}
+
+.box2{
+    background-color: orangered;
+    width: 50px;
+    height: 50px;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.text2{
+    position: absolute;
+    bottom: 3px;
+}
+
+.box3{
+    background-color: orangered;
+    width: 50px;
+    height: 50px;
+    flex: 1;
+    position: relative;
+}
+
+.text3{
+    position: absolute;
+    right: 3px;    
+}

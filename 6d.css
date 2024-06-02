@@ -1,0 +1,49 @@
+.block{
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.box1{
+    background-color: tomato;
+    width: 100px; 
+    height: 100px;  
+    position: relative; 
+}
+
+.text1{
+    position: absolute;
+    right: 3px;
+}
+
+.box2{
+    background-color: tomato;
+    width: 100px; 
+    height: 100px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.text2{
+    position: absolute;
+    bottom: 3px;
+}
+
+.box3{
+    background-color: tomato;
+    width: 100px; 
+    height: 100px; 
+    position: relative;
+}
+
+.text3{
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+}
